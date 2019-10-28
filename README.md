@@ -1,0 +1,2 @@
+# User-Centric-Frontend-Development-Milestone-Project
+Project purpose: Presentation of static data In this project, you’ll build a static front-end site to present useful information to users, using all the technologies that you have learned about so far.  Value provided: Data is presented in a way that helps users achieve their goals, e.g. learning about a product/service that they are interested in. The presentation of this data advances the site owner's goals, e.g. helps them market a product/service.
