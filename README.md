@@ -8,7 +8,7 @@ This Website is aimed to provide all the information you need to look after your
 
 <h3>Website</h3>
 A deployed link to the website can be found here. <br />
-https://noelquirke.github.io/Site4SoreEyes/index.html
+https://noelquirke.github.io/UserCentricFrontendDevelopmentMilestoneProject/
 
 <h3>UX</h3>
 My UX process is to make looking after your eyes easy. My project is aimed at users who want information on common eye conditions, advice on picking the right frames, and finding an opticians nearby. 
