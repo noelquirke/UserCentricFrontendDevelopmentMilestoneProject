@@ -1,0 +1,293 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/* Overall changes */
+html, body { 
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+/* Styling the Navgation */
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+/* stlying the carousel for added amination */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+    color: #fff;
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 15px #000;
+    padding-bottom: 1rem;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #CECECE;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.fa-eye, .fa-glasses, .fa-clinic-medical {
+    font-size: 4em;
+    margin: 1rem;
+    color: #222;
+}
+
+/* Contact Form */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  -webkit-box-sizing: border-box; 
+          box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #A9A9A9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #d5d5d5d8;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* social media connect icon to match actual color schemes */
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #365998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-instagram {
+    color: #8134AF;
+}
+
+.fa-linkedin-in {
+    color: #0e76a8;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-linkedin-in:hover {
+    color: #d5d5d5;
+}
+
+/* footer style */
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+   border-top: 1px solid #d5d5d5;
+   width: 75%;
+   margin-top: .8rem;
+   margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+     margin-bottom: 1rem;
+}
+
+/*--- Google Maps ---*/
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+    }
+.gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:100%;
+        width:100%;
+        }
+
+/*---Media Queries for the different device sizes --*/
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+    .carousel-indicators {
+    display: none;
+}
+  }
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+}
+
+.carousel-caption h1 {
+    font-size: 350%;
+}
+
+.carousel-caption h3{
+    color: #fff;
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+}
+.carousel-indicators {
+    display: none;
+}
+.display-4 {
+    font-size: 200%;
+}
+
+.social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+}
+
+.carousel-caption h1 {
+    font-size: 150%;
+}
+
+.carousel-caption h3{
+    color: #fff;
+    font-size: 70%;
+}
+.carousel-indicators {
+    display: none;
+}
+.display-4 {
+    font-size: 160%;
+}
+
+.social a {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url("https://images.pexels.com/photos/1627639/pexels-photo-1627639.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-color: lightgrey;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
